@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Invoice</title>
+    <style>
+          .center{
+            text-align:center;
+<!--            margin-bottom:20px;-->
+          }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="container my-3">
+    <div class="row border border-2 border-primary">
+        <div class="col">
+            <h1 class="center" style="color:#238785">Digitalisation of Invoice</h1>
+        </div>
+    </div>
+    <div class="row  border border-1 border-primary ">
+        <div class="col border border-1 border-primary">
+            <div class="row border border-1 border-primary">
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Invoice ID</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                           aria-describedby="inputGroup-sizing-default">
+                </div>
+
+            </div>
+            <div class="row mx-3 border border-1 border-primary">
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="mobileno" value="option1">
+                    <label class="form-check-label" for="mobileno">Mobile No</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="address" value="option2">
+                    <label class="form-check-label" for="address">Address</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="gstin" value="option2">
+                    <label class="form-check-label" for="gstin">GSTIN</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="panno" value="option2">
+                    <label class="form-check-label" for="panno">PAN No</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="invoiceno" value="option2">
+                    <label class="form-check-label" for="invoiceno">Invoice No</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="date" value="option2">
+                    <label class="form-check-label" for="date">Date</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="toaddr" value="option2">
+                    <label class="form-check-label" for="toaddr">To address</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="pono" value="option2">
+                    <label class="form-check-label" for="pono">PO No</label>
+                </div>
+
+            </div>
+            <div class="row border border-1 border-primary">
+                <div class="fixTableHead row text-center my-1 ">
+
+                    <table border="1px">
+                        <thead>
+                        <tr>
+                            <th width="5%">S.No</th>
+                            <th>Particulars</th>
+                            <th>Quantity</th>
+                            <th>Rate</th>
+                            <th>Amount</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td class="counterCell">1</td>
+                            <td><b>2</b></td>
+                            <td><b>3</b></td>
+                            <td><b>4</b></td>
+                            <td><b>5</b></td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col border border-1 border-primary">
+            <div class="row border border-1 border-primary">
+                <h2>Processed Image</h2>
+            </div>
+            <div class="row border border-1 border-primary">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-sm btn-outline-primary">Click 1</button>
+                    <button type="button" class="btn btn-sm btn-outline-primary">Click 2</button>
+                    <button type="button" class="btn btn-sm btn-outline-danger">Incline Left</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Incline Right</button>
+                </div>
+            </div>
+            <div class="row border border-1 border-primary">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-sm btn-outline-info">+</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">-</button>
+                    <button type="button" class="btn btn-sm btn-outline-info">Rotate</button>
+                        <button type="button" class="btn btn-sm btn-outline-warning">Commit</button>
+                </div>
+            </div>
+        </div>
+        <div class="col border border-1 border-primary">
+<!--            <div class="row border border-1 border-primary">-->
+<!--                r1-->
+<!--            </div>-->
+<!--            <div class="row border border-1 border-primary">-->
+<!--                r2-->
+<!--            </div>-->
+<!--            <div class="row border border-1 border-primary">-->
+<!--                r3-->
+<!--            </div>-->
+<!--            <div class="row border border-1 border-primary">-->
+<!--                r4-->
+<!--            </div>-->
+        </div>
+    </div>
+
+</div>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
